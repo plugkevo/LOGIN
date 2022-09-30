@@ -1,0 +1,61 @@
+h1{
+    text-align: left;
+}
+.header{
+    background-color: purple;
+    color: white;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: 6;
+}
+.sidebar{
+    position: absolute;
+    width: 15%;
+    background-color: pink;
+    height: 100vh;
+    z-index: 4;
+    padding-top: 100px;
+    
+}
+.sidebar ul{
+    list-style:  none;
+    margin: 0;
+    padding: 0;
+} 
+.sidebar ul li{
+    padding: 20px 10px;
+    border-bottom: 1px solid #fff;
+}
+/* changing text color */
+.sidebar ul li a{
+    color: grey;
+    text-decoration: none;}
+
+.main{
+    margin-left: 15%;
+    padding-top: 70px;
+}
+h5{
+    padding-top: 70px;
+    vertical-align: middle;
+    justify-content: center;
+    flex: auto;
+}
+
+.nav{
+    margin-left: 15%;
+    padding-top: 100px;
+    width: 85%;
+    height: 10%;
+    background-color: grey;
+    color: pink;
+}
+.container {
+    margin-left: ;
+    z-index: 4;
+}
+.main-content{
+    margin-left: 15%;
+}
+    
